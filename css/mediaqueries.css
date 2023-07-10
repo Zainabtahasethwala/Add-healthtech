@@ -1,0 +1,165 @@
+@media (max-width: 991px) {
+  .opened {
+    overflow: hidden;
+  }
+  h1 {
+    font-size: 45px;
+    line-height: 50px;
+    margin-bottom: 25px;
+  }
+  h3 {
+    font-size: 38px;
+    line-height: 43px;
+  }
+  h5 {
+    font-size: 23px;
+    margin-bottom: 4px;
+  }
+  .fs-26 {
+    font-size: 22px;
+    line-height: 37px;
+  }
+  .pb-130 {
+    padding-bottom: 65px;
+  }
+  /* banner Mq */
+  .pt-213 {
+    padding-top: 175px;
+  }
+  .mxw-948 {
+    max-width: auto;
+  }
+  .pb-35 {
+    padding-bottom: 15px;
+  }
+  .pb-64 {
+    padding-bottom: 24px;
+  }
+  .pt-40 {
+    padding-top: 30px;
+  }
+  .pt-48
+  /* banner mq ends */
+  /* case study MQ for sub-head banner a */
+  .case_study a {
+    font-size: 17px;
+  }
+  .bg-gray {
+    margin-bottom: 15px;
+  }
+  .pt-25 {
+    padding-top: 25px;
+  }
+  /* case study MQ for sub-head banner a ends */
+  /* image & content section MQ */
+  .div1_for_img_section {
+    min-width: auto;
+  }
+  .div1_for_img_section img,
+  .div2_img_section img {
+    max-width: 100%;
+  }
+  /* team user MQ */
+  .team_section_heading {
+    width: auto;
+  }
+
+  @media (max-width: 767px) {
+    h1 {
+      font-size: 40px;
+      line-height: 45px;
+      margin-bottom: 20px;
+    }
+    h3 {
+      font-size: 33px;
+      line-height: 35px;
+    }
+    h5 {
+      font-size: 20px;
+    }
+    .pt-40 {
+      padding-top: 20px;
+    }
+    .pb-130 {
+      padding-bottom: 45px;
+    }
+    .pt-213 {
+      padding-top: 150px;
+    }
+    .fs-26 {
+      font-size: 19px;
+      line-height: 30px;
+    }
+    .bg-gray {
+      margin-bottom: 18px;
+    }
+    .case_study a {
+      font-size: 15px;
+    }
+    .case_study svg {
+      width: 19px;
+      height: 19px;
+    }
+  }
+  @media (max-width: 576px) {
+    .pt-sm-25 {
+      padding-top: 25px;
+    }
+    .pb-130 {
+      padding-bottom: 35px;
+    }
+    .navbar,
+    header.sticky .navbar {
+      padding: 20px 0;
+    }
+    .pt-213 {
+      padding-top: 145px;
+    }
+  }
+
+  @media (max-width: 540px) {
+    h1 {
+      font-size: 35px;
+      line-height: 40px;
+      margin-bottom: 18px;
+    }
+    h3 {
+      font-size: 28px;
+      line-height: 32px;
+    }
+    h5 {
+      font-size: 17px;
+      margin-bottom: 0;
+    }
+    .fs-26 {
+      font-size: 17px;
+      line-height: 25px;
+    }
+    .bg-gray {
+      margin-bottom: 10px;
+    }
+    .case_study a {
+      font-size: 13px;
+    }
+    .case_study svg {
+      width: 16px;
+      height: 16px;
+    }
+  }
+  @media (max-width: 425px) {
+    button.btn {
+      display: none;
+    }
+  }
+  @media (max-width: 414px) {
+    h1 {
+      font-size: 30px;
+      line-height: 35px;
+      margin-bottom: 15px;
+    }
+    .fs-26 {
+      font-size: 14px;
+      line-height: 21px;
+    }
+  }
+}
