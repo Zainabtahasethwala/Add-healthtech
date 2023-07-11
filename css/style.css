@@ -382,9 +382,15 @@ h2.accordion-header {
 }
 /* accordion ends */
 /* contact & form css starts */
-.contact-info_head {
+.w-568{
+  width: 568px;
+  margin-left: auto;
+}
+.border_right{
   border-right: 1px solid var(--secondary-color);
-  padding-right: 71px;
+  padding-left: 71px;
+  width: 100%;
+  height: 100%;
 }
 .contact-info_head h4 {
   font-family: "Inter-SemiBold";
