@@ -66,7 +66,7 @@ button.common_btn {
   font-weight: 600;
   line-height: 22px;
 }
-button.common_btn span:first-child{
+button.common_btn span:first-child {
   padding-right: 6px;
 }
 .pd-x-54 .col-lg-6 {
@@ -80,7 +80,7 @@ button.common_btn:hover {
   border: 1px solid var(--heading-color);
   color: var(--heading-color);
 }
-button.common_btn:hover span:first-child{
+button.common_btn:hover span:first-child {
   padding-right: 15px;
 }
 button.common_btn:hover span svg path {
@@ -166,13 +166,13 @@ p.card-text {
   padding-left: 6px;
   width: auto;
 }
-.blogs_parent_div button:hover{
+.blogs_parent_div button:hover {
   color: var(--primary-color);
 }
-.blogs_parent_div button:hover svg path{
+.blogs_parent_div button:hover svg path {
   stroke: var(--primary-color);
 }
-.blogs_parent_div button:hover svg{
+.blogs_parent_div button:hover svg {
   padding-left: 15px;
 }
 /* css for cards ends */
@@ -334,12 +334,62 @@ ul.nav-pills {
 /* tabbings css ends */
 /* accordion starts */
 .faq_wrapper h3 {
-margin-bottom: 28px;
+  margin-bottom: 28px;
 }
-.accordion_parent{
+.accordion_parent {
   padding-top: 38px;
 }
 .accordion-item {
+  margin-bottom: 16px;
+}
+.accordion-tittle {
+  padding: 24px;
+  border-radius: 16px;
+  border: 1px solid var(--neutral-light-neutral, #f4f2f2);
+  background: var(--white-color);
+  cursor: pointer;
+  font-family: "Inter-Medium";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: -0.3px;
+  color: #243752;
+}
+.accordion-content {
+  border-radius: 16px;
+  background: var(--acc-bg);
+  padding: 24px;
+  margin-top: 16px;
+  font-family: "Inter-Regular";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px;
+  color: #061C3D;
+  display: none;
+}
+.accordion-tittle img{
+  transition: all 1s ease;
+}
+.accordion-tittle.active .accordion-content{
+  display: block;
+}
+.accordion-tittle.active img{
+  transform: rotate(180deg);
+}
+.accordion-content strong {
+  display: block;
+  margin-bottom: 24px;
+  font-family: "Inter-SemiBold";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -0.3px;
+  color: #061C3D;
+}
+/* .accordion-item {
   border: 0;
   margin-bottom: 16px;
 }
@@ -377,14 +427,14 @@ h2.accordion-header {
 .accordion-button:focus{
   border-color: transparent;
   box-shadow: none;
-}
+} */
 /* accordion ends */
 /* contact & form css starts */
-.w-568{
+.w-568 {
   width: 568px;
   margin-left: auto;
 }
-.border_right{
+.border_right {
   border-right: 1px solid var(--secondary-color);
   padding-left: 71px;
   width: 100%;
