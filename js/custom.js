@@ -11,8 +11,8 @@ $(document).ready(function(){
           }
     });
     //accordion js
-    $('.accordion_parent .accordion-item:nth-child(1) .accordion-tittle').addClass('active');
-    $('.accordion_parent .accordion-item:nth-child(1) .accordion-content').slideDown();
+    // $('.accordion_parent .accordion-item:nth-child(1) .accordion-tittle').addClass('active');
+    // $('.accordion_parent .accordion-item:nth-child(1) .accordion-content').slideDown();
     $('.accordion-tittle').click(function(){
       if ($(this).hasClass('active')) {
         $(this).siblings('.accordion-content').slideUp();

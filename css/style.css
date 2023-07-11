@@ -68,6 +68,7 @@ button.common_btn {
 }
 button.common_btn span:first-child {
   padding-right: 6px;
+  transition: all 0.3s ease-in-out;
 }
 .pd-x-54 .col-lg-6 {
   padding: 0 45px;
@@ -158,6 +159,7 @@ p.card-text {
   font-weight: 600;
   line-height: 22px;
   font-family: "Inter-SemiBold";
+  transition: all 1s ease;
 }
 .blogs_parent_div button svg path {
   stroke: var(--heading-color);
@@ -165,6 +167,7 @@ p.card-text {
 .blogs_parent_div button svg {
   padding-left: 6px;
   width: auto;
+  transition: all 1s ease;
 }
 .blogs_parent_div button:hover {
   color: var(--primary-color);
@@ -204,12 +207,21 @@ p.card-text {
 .team_user_parent .card-footer span {
   padding: 0 8px;
 }
-.team_user_parent .card-footer span:hover svg path,
-.team_user_parent .card-footer span:first-child:hover svg path:last-child {
+.team_user_parent .card-footer a:hover span svg path,
+.team_user_parent .card-footer a:first-child:hover span svg path:last-child {
   fill: var(--heading-color);
 }
 .team_user_parent .card-footer span:hover svg path:last-child {
   fill: var(--white-color);
+}
+.team_user_parent .card-footer a:last-child:hover span svg path:first-child {
+fill: #0088cc;
+}
+.team_user_parent .card-footer a:nth-child(2):hover span svg path:first-child {
+  fill: #1877F2;
+}
+.team_user_parent .card-footer a:nth-child(3):hover span svg path:first-child {
+  fill: #0072b1 ;
 }
 /* team user css ends */
 /* process list css starts */
