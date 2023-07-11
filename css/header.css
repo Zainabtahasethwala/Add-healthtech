@@ -31,6 +31,7 @@ header.sticky .pt-23{
 .navbar .navbar-nav .nav-item:hover a.nav-link {
   color: var(--heading-color);
 }
+a.btn,
 button.btn {
   border-radius: 31px;
   background: var(--heading-color);
@@ -44,6 +45,7 @@ button.btn {
   text-transform: capitalize;
   transition: all 0.3s ease;
 }
+a.btn:hover,
 button.btn:hover {
   background: var(--white-color);
   color: var(--heading-color);
@@ -124,6 +126,7 @@ button.btn:hover {
     display: flex;
     align-items: center;
   }
+  a.btn,
   button.btn {
     padding: 12px 18px;
     font-size: 15px;

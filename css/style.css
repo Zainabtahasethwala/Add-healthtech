@@ -51,7 +51,7 @@
   color: var(--grey-light-text);
   margin-bottom: 20px;
 }
-.common_btn {
+button.common_btn {
   padding: 12px 18px;
   border-radius: 6px;
   box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.04);
@@ -66,7 +66,7 @@
   font-weight: 600;
   line-height: 22px;
 }
-.common_btn span:first-child{
+button.common_btn span:first-child{
   padding-right: 6px;
 }
 .pd-x-54 .col-lg-6 {
@@ -75,15 +75,15 @@
 .pd-x-54 .row {
   margin: 0 -45px;
 }
-.common_btn:hover {
+button.common_btn:hover {
   background-color: var(--white-color);
   border: 1px solid var(--heading-color);
   color: var(--heading-color);
 }
-.common_btn:hover span:first-child{
+button.common_btn:hover span:first-child{
   padding-right: 15px;
 }
-.common_btn:hover span svg path {
+button.common_btn:hover span svg path {
   stroke: var(--heading-color);
 }
 /* css ends for image & side content  */
@@ -150,7 +150,7 @@ p.card-text {
   padding: 0 32px 24px;
   transition: all 3s ease-in-out;
 }
-.card-footer button {
+.blogs_parent_div button {
   background-color: transparent;
   border: transparent;
   color: var(--heading-color);
@@ -159,22 +159,22 @@ p.card-text {
   line-height: 22px;
   font-family: "Inter-SemiBold";
 }
-.card-footer button svg path {
+.blogs_parent_div button svg path {
   stroke: var(--heading-color);
 }
-.card-footer button svg {
+.blogs_parent_div button svg {
   padding-left: 6px;
   width: auto;
 }
-/* .card-footer:hover button{
+.blogs_parent_div button:hover{
   color: var(--primary-color);
 }
-.card-footer button:hover svg path{
+.blogs_parent_div button:hover svg path{
   stroke: var(--primary-color);
 }
-.card-footer button:hover svg{
+.blogs_parent_div button:hover svg{
   padding-left: 15px;
-} */
+}
 /* css for cards ends */
 /* team user css starts */
 .team_section_heading {
