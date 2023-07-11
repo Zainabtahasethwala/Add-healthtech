@@ -60,15 +60,13 @@
   margin-top: 20px;
   border: 1px solid transparent;
   transition: all 0.3s ease-in-out;
-}
-.common_btn button {
-  border: none;
-  background-color: transparent;
   color: var(--white-color);
   font-size: 15px;
   font-family: "Inter-SemiBold";
   font-weight: 600;
   line-height: 22px;
+}
+.common_btn span:first-child{
   padding-right: 6px;
 }
 .pd-x-54 .col-lg-6 {
@@ -80,9 +78,9 @@
 .common_btn:hover {
   background-color: var(--white-color);
   border: 1px solid var(--heading-color);
-}
-.common_btn:hover button {
   color: var(--heading-color);
+}
+.common_btn:hover span:first-child{
   padding-right: 15px;
 }
 .common_btn:hover span svg path {
