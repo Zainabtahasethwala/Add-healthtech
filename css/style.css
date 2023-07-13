@@ -196,10 +196,10 @@ p.card-text {
 .list-grp .card {
   box-shadow: 0px 2px 8px 0px rgba(42, 42, 43, 0.06);
 }
-.list-grp h5.card-title{
+.list-grp h5.card-title {
   margin: 0;
 }
-.arow_circle{
+.arow_circle {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -253,6 +253,9 @@ img.w_64-h_64 {
 /* tabbings css starts */
 .tab_wrapper {
   padding-top: 38px;
+}
+.tab_wrapper ul{
+  justify-content: center;
 }
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
@@ -323,7 +326,7 @@ ul.nav-pills {
 .accordion-item {
   margin-bottom: 16px;
 }
-.accordion-item:last-child{
+.accordion-item:last-child {
   margin-bottom: 0;
 }
 .accordion-tittle {
@@ -380,19 +383,19 @@ ul.nav-pills {
 }
 /* accordion ends */
 /* contact & form css starts */
-.contact_form_wrapper .col-lg-6{
+.contact_form_wrapper .col-lg-6.col-md-6 {
   padding: 0 35px;
 }
-.contact_form_wrapper .row{
+.contact_form_wrapper .row {
   margin: 0 -35px;
 }
 .contact-info {
   display: flex;
 }
-.contact_form_wrapper .col-lg-6:first-child{
+.contact_form_wrapper .col-lg-6:first-child {
   border-right: 1px solid var(--border-color);
 }
-.contact-info_head.w-500{
+.contact-info_head.w-500 {
   width: 500px;
 }
 .contact-info_head h4 {
@@ -470,20 +473,22 @@ hr {
 /* contact & form css ends */
 /* form css starts */
 /* custom col css */
-/* .margin_minus{
+.margin_minus_16 {
   margin: 0 -16px;
-} */
-.w-568{
+}
+.w-532 {
   width: 532px;
+}
+.form-spaceing {
   margin-right: -24px !important;
   margin-left: auto !important;
 }
-.custom_col{
+.custom_col {
   padding: 0 16px;
   margin-bottom: 32px;
-  width: 100%;
+  width: 50%;
 }
-.custom_col:nth-child(6){
+.custom_col:nth-child(6) {
   border-bottom: 1px solid var(--border-color);
 }
 form input,
@@ -535,7 +540,7 @@ input:focus-visible {
 .contactus_wrapper .col-lg-4 {
   padding: 0 26px;
 }
-.contactus_wrapper .row {
+.contactus_wrapper .row.margin_minus {
   margin: 0 -26px;
 }
 .address_wrapper {
