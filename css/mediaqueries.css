@@ -54,12 +54,9 @@
   .team_user_parent .card-footer a:last-child:hover span svg path:first-child {
     fill: #0088cc;
   }
-  .team_user_parent
-    .card-footer
-    a:nth-child(2):hover
-    span
-    svg
-    path:first-child {
+  /* facebook icon */
+  .team_user_parent .card-footer a:nth-child(2):hover span svg path:first-child,
+  .followus_parent span:first-child:hover svg path {
     fill: #1877f2;
   }
   .team_user_parent
@@ -93,6 +90,9 @@
   }
   .followus_parent span:first-child:hover svg path:last-child {
     fill: var(--white-color);
+  }
+  .followus_parent a span:last-child:hover svg path {
+  fill:#bc1888; 
   }
   .address_wrapper a:hover {
     color: var(--black);
@@ -630,12 +630,6 @@
     margin-bottom: 0;
   }
 }
-@media (max-width: 493px) {
-  li.nav-item:last-child {
-    /* margin-top: 12px; */
-  }
-}
-
 @media (max-width: 425px) {
   button.btn {
     display: none;
@@ -655,10 +649,5 @@
 @media (max-width: 400px) {
   .tab_box {
     width: 70%;
-  }
-}
-@media (max-width: 382px) {
-  li.nav-item:nth-child(3) {
-    /* margin-top: 12px; */
   }
 }
