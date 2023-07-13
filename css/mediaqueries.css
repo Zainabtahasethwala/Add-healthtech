@@ -531,6 +531,9 @@
   .tab_box {
     width: 23%;
   }
+  .followus_parent{
+    margin-bottom: 30px;
+  }
 }
 @media (max-width: 576px) {
   .pt-sm-25 {
@@ -563,9 +566,7 @@
     width: 50%;
     padding-top: 15px;
   }
-  form .col-12 {
-    margin-top: 20px;
-  }
+  
   .contactus_wrapper .col-12 {
     margin-bottom: 20px;
   }
@@ -624,6 +625,9 @@
   }
   .tab_wrapper ul{
     justify-content: space-between;
+  }
+  ul.nav-pills{
+    margin-bottom: 0;
   }
 }
 @media (max-width: 493px) {

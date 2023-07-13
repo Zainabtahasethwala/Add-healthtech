@@ -386,7 +386,7 @@ ul.nav-pills {
 .contact_form_wrapper .col-lg-6.col-md-6 {
   padding: 0 35px;
 }
-.contact_form_wrapper .row {
+.contact_form_wrapper .row.margin_minus{
   margin: 0 -35px;
 }
 .contact-info {
@@ -540,7 +540,7 @@ input:focus-visible {
 .contactus_wrapper .col-lg-4 {
   padding: 0 26px;
 }
-.contactus_wrapper .row.margin_minus {
+.contactus_wrapper .row {
   margin: 0 -26px;
 }
 .address_wrapper {
