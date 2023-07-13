@@ -17,6 +17,7 @@
   --contact-text:#121212;
   --detail-text:#787878;
   --acc-bg:#F9F9F9;
+  --border-color:#E6E6E6;
 }
 a {
   text-decoration: none;
@@ -118,4 +119,13 @@ p {
 }
 .pt-48{
   padding-top: 48px;
+}
+/* padding + & margin - from blogs & team section's */
+.team_user_parent .col,
+.card_parent_div .col{
+  padding: 0 16px;
+}
+.team_user_parent .row,
+.card_parent_div .row{
+  margin: 0 -16px;
 }

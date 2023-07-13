@@ -60,6 +60,10 @@ button.btn:hover {
   }
 }
 @media (max-width: 991px) {
+  .logo img{
+    height: 38px;
+    width: 125px;
+  }
   /* menutoggle css starts */
   .menutoggle {
     display: flex;
@@ -138,5 +142,26 @@ button.btn:hover {
   }
   .py-23{
     padding: 10px 0;
+  }
+}
+@media (max-width:767px) {
+  header.sticky .navbar{
+    padding: 20px 0;
+  }
+  a.btn, button.btn{
+    padding: 10px 14px;
+    font-size: 13px;
+    line-height: 17px;
+  }
+  .menutoggle{
+    padding-left: 8px;
+  }
+  .menutoggle a{
+    width: 32px;
+  }
+  .menutoggle span{
+    width: 27px;
+    height: 2px;
+    margin-bottom: 4px;
   }
 }
