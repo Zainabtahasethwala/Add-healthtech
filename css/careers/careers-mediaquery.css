@@ -14,7 +14,7 @@
   h4.rsp-pt-15 {
     padding-top: 15px;
   }
-  .cards4_wrapper.about-cards-wrapper {
+  .industries_card_wrapper.about-cards-wrapper {
     padding-top: 0px;
   }
   .about-cards-wrapper .card,
@@ -24,7 +24,7 @@
   .about-cards-wrapper h5.card-title {
     margin: 0;
   }
-  .cards4_wrapper .card-body {
+  .industries_card_wrapper .card-body {
     padding: 5px 0 40px;
   }
   .pb-125,
@@ -119,7 +119,7 @@
   .pt-213 {
     padding-top: 145px;
   }
-  .cards4_wrapper .card-body {
+  .industries_card_wrapper .card-body {
     padding: 5px 0 30px;
   }
   h4.rsp-pt-15,

@@ -155,7 +155,7 @@
   .pt-48 {
     padding-top: 0;
   }
-  .cards4_wrapper,
+  .industries_card_wrapper,
   .tab_wrapper,
   .accordion_parent {
     padding-top: 32px;
@@ -195,7 +195,7 @@
     margin-bottom: 16px;
   }
   h5.card-title,
-  .cards4_wrapper h5.card-title {
+  .industries_card_wrapper h5.card-title {
     font-size: 19px;
     line-height: 28px;
     margin: 12px 0;
@@ -213,7 +213,7 @@
     font-size: 19px;
   }
   .list-grp p.card-text,
-  .cards4_wrapper p.card-text,
+  .industries_card_wrapper p.card-text,
   p.card-text {
     font-size: 15px;
     line-height: 22px;
@@ -408,12 +408,12 @@
     margin-bottom: 11px;
   }
   h5.card-title,
-  .cards4_wrapper h5.card-title {
+  .industries_card_wrapper h5.card-title {
     font-size: 17px;
     line-height: 25px;
   }
   .list-grp p.card-text,
-  .cards4_wrapper p.card-text,
+  .industries_card_wrapper p.card-text,
   p.card-text {
     font-size: 14px;
     line-height: 21px;
@@ -428,7 +428,7 @@
     margin-bottom: 8px;
   }
   h5.card-title,
-  .cards4_wrapper h5.card-title {
+  .industries_card_wrapper h5.card-title {
     margin: 8px 0;
   }
   .tab_wrapper .nav-link,
@@ -440,7 +440,7 @@
   .tab_wrapper .nav-link {
     padding: 4px 12px 4px 12px;
   }
-  .cards4_wrapper,
+  .industries_card_wrapper,
   .tab_wrapper,
   .accordion_parent {
     padding-top: 19px;
@@ -553,7 +553,7 @@
     padding-top: 120px;
   }
   .tab_box {
-    width: 33.3%;
+    width: 46%;
   }
   .img_layout {
     padding-top: 25px;
@@ -575,6 +575,14 @@
   }
   .contactus_wrapper .col-12:last-child {
     margin-bottom: 0;
+  }
+  .team_user_parent .card-footer{
+    padding: 0 0 24px 0;
+    border-bottom: 1px solid var(--border-color);
+    border-radius: 0;
+  }
+  .industries_card_wrapper .card-body{
+    border-bottom: 1px solid var(--border-color);
   }
 }
 
@@ -631,6 +639,11 @@
   }
   ul.nav-pills{
     margin-bottom: 0;
+  }
+}
+@media (max-width:430px) {
+  .custom_col{
+    width: 100% !important;
   }
 }
 @media (max-width: 425px) {

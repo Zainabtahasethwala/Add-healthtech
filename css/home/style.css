@@ -547,6 +547,7 @@ input:focus-visible {
   margin-top: 12px;
   display: block;
   text-transform: capitalize;
+  width: fit-content;
 }
 .address_wrapper a span {
   padding-left: 8px;

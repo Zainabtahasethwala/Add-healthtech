@@ -122,8 +122,8 @@ button.btn {
   }
   .navbar .navbar-nav .nav-item a.nav-link {
     text-align: left;
-    font-size: 15px;
-    line-height: 20px;
+    font-size: 18px;
+    line-height: 28px;
     padding: 0 12px 10px 12px;
   }
   /* ul li in menu opens on humburger close */
