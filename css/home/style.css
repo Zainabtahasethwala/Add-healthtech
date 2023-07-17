@@ -498,12 +498,12 @@ form input.form-control {
 .form-control:focus {
   color: var(--detail-text);
   background-color: var(--bg-gray);
-  border-color: transparent;
-  outline: 0;
+  border-color: var(--heading-color);
+  outline: 1px;
   box-shadow: none;
 }
 input:focus-visible {
-  outline: -webkit-focus-ring-color auto 0px;
+  outline: -webkit-focus-ring-color auto 1px;
 }
 /* address of india & uk css starts */
 .contactus_wrapper .col-lg-4 {
