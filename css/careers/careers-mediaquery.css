@@ -1,3 +1,12 @@
+@media (min-width:992px) {
+  .card-body-wrapper button:hover {
+    border: 2px solid var(--careers-heading-color);
+    color: var(--careers-heading-color);
+  }
+  .card-body-wrapper button:hover span svg path {
+    stroke: var(--careers-heading-color);
+  }
+}
 @media (max-width: 991px) {
   .pt-213 {
     padding-top: 190px;

@@ -1,16 +1,15 @@
 .navbar {
   padding: 40px 0;
 }
-header.sticky .navbar{
+header.sticky .navbar {
   padding: 30px 0;
 }
-header.sticky .pt-23{
+header.sticky .pt-23 {
   padding-top: 0;
   transition: all 0.3s ease-in-out;
 }
-.fixed-top{
+.fixed-top {
   background-color: var(--white-color);
-  
 }
 .logo img {
   height: 44px;
@@ -28,9 +27,7 @@ header.sticky .pt-23{
   line-height: 24px;
   padding: 0 15px;
 }
-.navbar .navbar-nav .nav-item:hover a.nav-link {
-  color: var(--heading-color);
-}
+
 a.btn,
 button.btn {
   border-radius: 31px;
@@ -45,12 +42,7 @@ button.btn {
   text-transform: capitalize;
   transition: all 0.3s ease;
 }
-a.btn:hover,
-button.btn:hover {
-  background: var(--white-color);
-  color: var(--heading-color);
-  border: 1px solid var(--heading-color);
-}
+
 @media (min-width: 991px) {
   .menutoggle {
     display: none;
@@ -58,9 +50,18 @@ button.btn:hover {
   .menu_item {
     align-items: center;
   }
+  .navbar .navbar-nav .nav-item:hover a.nav-link {
+    color: var(--heading-color);
+  }
+  a.btn:hover,
+  button.btn:hover {
+    background: var(--white-color);
+    color: var(--heading-color);
+    border: 1px solid var(--heading-color);
+  }
 }
 @media (max-width: 991px) {
-  .logo img{
+  .logo img {
     height: 38px;
     width: 125px;
   }
@@ -137,29 +138,30 @@ button.btn:hover {
     line-height: 20px;
   }
   /* navbar padding */
-  .navbar{
+  .navbar {
     padding: 30px 0;
   }
-  .py-23{
+  .py-23 {
     padding: 10px 0;
   }
 }
-@media (max-width:767px) {
-  header.sticky .navbar{
+@media (max-width: 767px) {
+  header.sticky .navbar {
     padding: 20px 0;
   }
-  a.btn, button.btn{
+  a.btn,
+  button.btn {
     padding: 10px 14px;
     font-size: 13px;
     line-height: 17px;
   }
-  .menutoggle{
+  .menutoggle {
     padding-left: 8px;
   }
-  .menutoggle a{
+  .menutoggle a {
     width: 32px;
   }
-  .menutoggle span{
+  .menutoggle span {
     width: 27px;
     height: 2px;
     margin-bottom: 4px;

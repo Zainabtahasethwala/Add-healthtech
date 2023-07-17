@@ -206,13 +206,7 @@ h4 {
   stroke: var(--heading-color);
   width: auto;
 }
-.card-body-wrapper button:hover {
-  border: 2px solid var(--careers-heading-color);
-  color: var(--careers-heading-color);
-}
-.card-body-wrapper button:hover span svg path {
-  stroke: var(--careers-heading-color);
-}
+
 /* about us css starts */
 .aboutus_wrapper {
   padding: 134px 0;
