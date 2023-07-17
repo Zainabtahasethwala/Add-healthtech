@@ -1,0 +1,62 @@
+.cards4_wrapper {
+    padding-top: 41px;
+  }
+  img.w_64-h_64 {
+    width: 64px;
+    height: 64px;
+  }
+  .cards4_wrapper .card-body {
+    padding: 8px 0 0 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .cards4_wrapper h5.card-title {
+    margin-bottom: 13px;
+    font-family: "Inter-Bold";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: var(--black_color);
+  }
+  .cards4_wrapper p.card-text {
+    font-size: 18px;
+    line-height: 24px;
+    color: #909090;
+    flex: 1;
+  }
+  /* careers cards */
+  .cards4_wrapper.about-cards-wrapper{
+    padding-top: 56px;
+  }
+  .about-cards-wrapper .col {
+    padding: 0 29px;
+  }
+  .about-cards-wrapper .row {
+    margin: 0 -29px;
+  }
+  .about-cards-wrapper .card {
+    width: 300px;
+    margin: auto;
+  }
+  .about-cards-wrapper .card img {
+    margin-bottom: 7px;
+  }
+  .about-cards-wrapper h5.card-title {
+    color: var(--sub-text-black);
+    font-family: "Inter-Bold";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: -0.48px;
+    margin: 0;
+  }
+  .cards4_wrapper.about-cards-wrapper p.card-text {
+    padding-top: 9px;
+    color: var(--p-text-black);
+  }
+  .cards4_wrapper .card-body {
+    padding: 8px 0 56px;
+  }
+  

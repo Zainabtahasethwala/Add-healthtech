@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+/* custom container */
+.max_width_container {
+  max-width: 1258px;
+  margin: auto;
+  width: calc(100% - 100px);
+}
+/* custom container css ends */
+.pt-213 {
+  padding-top: 213px;
+}
+.pt-23 {
+  padding-top: 23px;
+}
+.pb-35 {
+  padding-bottom: 35px;
+}
+.mxw-948 {
+  max-width: 948px;
+}
+.mt-31{
+  margin-top: 31px;
+}
+h1 {
+  font-size: 60px;
+  font-family: "Inter-Bold";
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: -1.12px;
+  color: var(--primary-color);
+  margin-bottom: 40px;
+  text-align: center;
+}
+h3 {
+  font-size: 50px;
+  font-family: "Inter-Bold";
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: -1.12px;
+  color: var(--primary-color);
+  margin-bottom: 0;
+  text-align: center;
+  margin-bottom: 16px;
+}
+h3 span {
+  color: var(--heading-color);
+}
+h4 {
+  font-family: "Inter-SemiBold";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 42px;
+  letter-spacing: -0.32px;
+  color: var(--grey-text);
+  margin-bottom: 16px;
+}
+h5 {
+  font-size: 30px;
+  font-family: "Inter-Bold";
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -1.12px;
+  color: var(--primary-color);
+}
+h6 {
+  font-family: "Inter-SemiBold";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: -0.1px;
+  color: var(--heading-color);
+}
+p {
+  font-family: "Inter-Regular";
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.fs-16 {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+}
+.fs-26 {
+  font-size: 26px;
+  line-height: 46px;
+  color: var(--secondary-color);
+}
+.pt-40 {
+  padding-top: 40px;
+}
+.pb-64 {
+  padding-bottom: 64px;
+}
+.pb-130 {
+  padding-bottom: 130px;
+}
+.pt-48 {
+  padding-top: 48px;
+}
+/* padding + & margin - from blogs & team section's */
+.team_user_parent .col,
+.card_parent_div .col {
+  padding: 0 16px;
+}
+.team_user_parent .row,
+.card_parent_div .row {
+  margin: 0 -16px;
+}
+/* careers */
+.py-48{
+  padding: 48px 0;
+}

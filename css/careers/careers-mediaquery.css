@@ -1,0 +1,260 @@
+@media (max-width: 991px) {
+  .pt-213 {
+    padding-top: 190px;
+  }
+  h4.rsp-pt-15 {
+    padding-top: 15px;
+  }
+  .cards4_wrapper.about-cards-wrapper {
+    padding-top: 0px;
+  }
+  .about-cards-wrapper .card,
+  .w-471 {
+    width: auto;
+  }
+  .about-cards-wrapper h5.card-title {
+    margin: 0;
+  }
+  .cards4_wrapper .card-body {
+    padding: 5px 0 40px;
+  }
+  .pb-125,
+  .job-position.pb-130,
+  .resp_pb_50.pb-130 {
+    padding-bottom: 50px;
+  }
+  .elements_wrapper {
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .elements-img {
+    margin: auto;
+    width: auto;
+    text-align: center;
+  }
+  .pt-35 {
+    padding-top: 32px;
+  }
+  .mb_32 {
+    margin-bottom: 15px;
+  }
+  .benefit_head span {
+    font-size: 17px;
+    line-height: 25px;
+  }
+  .job-position h4 {
+    padding-top: 20px;
+  }
+  .job-position p {
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 40px;
+  }
+  .card-body-wrapper {
+    padding: 20px 25px 19px;
+  }
+  .card_details h5 {
+    font-size: 19px;
+    line-height: 25px;
+  }
+  .card_details h6 {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .card_details span {
+    font-size: 11px;
+    line-height: 18px;
+    letter-spacing: 0.68px;
+  }
+  .card-body-wrapper button {
+    padding: 10px 15px;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .required_position .col {
+    margin: 12px 0;
+  }
+  .aboutus_wrapper {
+    padding: 20px 0 50px;
+  }
+  .aboutus_details h5 {
+    font-size: 25px;
+  }
+  .aboutus_details p {
+    font-size: 13px;
+    line-height: 19px;
+  }
+  .aboutus_details {
+    margin-top: 50px;
+  }
+}
+@media (max-width: 820px) {
+  .card_details h5 {
+    font-size: 16px;
+  }
+  .card_details h6 {
+    font-size: 14px;
+  }
+}
+@media (max-width: 769px) {
+  .card-body-wrapper {
+    flex-direction: column;
+  }
+  .card_details {
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 767px) {
+  .pt-213 {
+    padding-top: 145px;
+  }
+  .cards4_wrapper .card-body {
+    padding: 5px 0 30px;
+  }
+  h4.rsp-pt-15,
+  .resp_fs_24 {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 16px;
+  }
+  .pb-125,
+  .job-position.pb-130,
+  .resp_pb_50.pb-130 {
+    padding-bottom: 30px;
+  }
+  .pt-35 {
+    padding-top: 19px;
+  }
+  .benefit_head span {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .mb_32 {
+    margin-bottom: 10px;
+  }
+  .card-body-wrapper {
+    padding: 15px 20px 14px;
+  }
+  .card_details h5 {
+    font-size: 17px;
+    line-height: 24px;
+  }
+  .card_details h6 {
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .card_details span {
+    font-size: 10px;
+  }
+  .aboutus_details {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 653px) {
+  .element-1 {
+    width: auto;
+    padding: 6px 12px;
+  }
+  .element-1 span:first-child {
+    margin-bottom: 2px;
+    font-size: 14px;
+  }
+  .element-1 span:last-child {
+    font-size: 10px;
+  }
+  .resp_mr_12_ml_9 {
+    margin: 0 12px 0 9px;
+  }
+  .elements-img {
+    padding-left: 65px;
+    padding-right: 50px;
+  }
+  .element-2 {
+    left: 0;
+  }
+  .element-4 {
+    width: auto;
+    height: auto;
+    padding: 8px 9px 5px;
+  }
+  .element-4 span:first-child {
+    font-size: 12px;
+    margin-bottom: 4px;
+    text-align: left;
+  }
+  .element-4 span:nth-child(2) {
+    font-size: 14px;
+    padding-right: 14px;
+  }
+  .element-3 {
+    padding: 12px 15px;
+  }
+  .element-3 span {
+    font-size: 14px;
+    padding-left: 8px;
+  }
+}
+@media (max-width: 540px) {
+  .elements-img {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .element-2 {
+    left: 12px;
+  }
+  .element-1 {
+    left: 10px;
+  }
+  .element-4 {
+    right: 10px;
+  }
+  .card_details{
+    margin-bottom: 8px;
+  }
+  .job-position p{
+    font-size: 15px;
+    line-height: 23px;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 414px) {
+  .element-1,
+  .element-2,
+  .element-3,
+  .element-4 {
+    display: none;
+  }
+  .elements-img {
+    padding: 0;
+  }
+  .elements-img img {
+    max-width: 100%;
+  }
+  .benefit_head span {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  h3 {
+    font-size: 26px;
+    line-height: 28px;
+  }
+  .card-body-wrapper button {
+    padding: 6px 12px;
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .card_details h5 {
+    font-size: 15px;
+    line-height: 30px;
+  }
+  .card_details h6 {
+    font-size: 12px;
+    line-height: 17px;
+    margin-bottom: 4px;
+  }
+  .card_details span {
+    font-size: 9px;
+  }
+}

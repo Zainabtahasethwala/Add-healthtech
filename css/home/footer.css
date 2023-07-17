@@ -1,0 +1,85 @@
+.footer_detail p {
+  color: var(--grey-light-text);
+  font-family: "Inter-Regular";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+}
+footer a {
+  margin: 0 -12px;
+}
+footer a span {
+  padding: 0 12px;
+}
+/* footer a span:hover svg path {
+  fill: var(--heading-color);
+} */
+footer span:first-child:hover svg path:last-child {
+  fill: var(--white-color);
+}
+/* google icon */
+footer span:nth-child(2):hover svg path:first-child {
+  fill: #3cba54;
+}
+footer span:nth-child(2):hover svg path:nth-child(2) {
+  fill:  #f4c20d;
+}
+footer span:nth-child(2):hover svg path:nth-child(3) {
+  fill: #db3236;
+}
+footer span:nth-child(2):hover svg path:last-child {
+  fill: #4885ed;
+}
+/* fb icon */
+footer a span:first-child:hover svg path{
+  fill: #1877f2;
+}
+/* apple icon */
+footer span:nth-child(3):hover svg path {
+  fill: #555555;
+}
+/* instagram icon */
+footer span:last-child:hover svg path {
+  fill:#bc1888; 
+}
+.footer_list h6 {
+  font-family: "Inter-SemiBold";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+  color: var(--grey-text);
+  margin-bottom: 18px;
+}
+.footer_list li a {
+  color: var(--grey-light-text);
+  font-family: "Inter-Medium";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+  padding: 6px 0;
+  display: block;
+  width: 100%;
+  margin: auto;
+}
+.footer_list li:last-child a {
+  padding-bottom: 0;
+}
+.footer_list li a:hover {
+  color: var(--heading-color);
+}
+.copyright span {
+  font-family: "Inter-Regular";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+  display: block;
+  color: var(--grey-light-text);
+}

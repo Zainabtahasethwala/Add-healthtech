@@ -1,0 +1,245 @@
+h4 {
+  color: var(--careers-heading-color);
+  font-family: "Inter-ExtraBold";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 44px; /* 122.222% */
+  letter-spacing: -0.36px;
+  padding-top: 56px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.pb-125 {
+  padding-bottom: 125px;
+}
+.mb_32 {
+  margin-bottom: 32px;
+}
+.pt-35 {
+  padding-top: 35px;
+}
+.benefit_head span {
+  color: #191a15;
+  font-family: "Inter-Medium";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  display: flex;
+  margin-left: 20px;
+}
+.w-471 {
+  width: 471px;
+}
+/* elemnts css starts */
+.elements_wrapper {
+  position: relative;
+  text-align: end;
+}
+.element-4,
+.element-3,
+.element-1 {
+  border-radius: 10px;
+  background: var(--white-color);
+  box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.05);
+}
+.element-1 {
+  width: 304px;
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  font-family: "Inter-Medium";
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  justify-content: space-between;
+  position: absolute;
+  top: 36px;
+  left: 0;
+}
+.element-1 span:first-child {
+  margin-bottom: 6px;
+  display: block;
+  color: var(--primary-color);
+  font-size: 16px;
+}
+.element-1 span:last-child {
+  color: var(--element-grey-text);
+  font-size: 12px;
+}
+.msg-circle {
+  width: 40px;
+  height: 40px;
+  background-color: var(--heading-color);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.element-3 {
+  width: fit-content;
+  padding: 22px 25px;
+  position: absolute;
+  bottom: 0;
+  left: 18px;
+}
+.element-3 span {
+  color: var(--primary-color);
+  font-family: "Inter-Regular";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.54px;
+  padding-left: 15px;
+}
+.element-4 {
+  width: 138px;
+  height: 70px;
+  padding: 13px 12px 14px;
+  position: absolute;
+  top: 121px;
+  right: 0;
+}
+.element-4 span:first-child {
+  color: #a9a7b6;
+  font-family: "Inter-Regular";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 9px;
+  display: block;
+}
+.element-4 span:nth-child(2) {
+  color: var(--primary-color);
+  font-family: "Inter-Medium";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-right: 25px;
+}
+.elements-img {
+  padding-left: 124px;
+  padding-right: 69px;
+  display: inline-block;
+  padding-bottom: 18px;
+}
+.element-2 {
+  position: absolute;
+  left: 64px;
+  top: 50%;
+}
+/* css for job position */
+.job-position p {
+  font-size: 18px;
+  line-height: 28.8px;
+  letter-spacing: -0.36px;
+  color: var(--position-text);
+  margin-bottom: 45px;
+}
+.required_position .row {
+  padding: 0 -15px;
+}
+.required_position .col {
+  margin: 15px 0;
+  padding: 0 15px;
+}
+.card-body-wrapper {
+  border-radius: 16px;
+  border: 1px solid #f0f0f0;
+  background: #fff;
+  box-shadow: 0px 8px 30px 0px rgba(0, 0, 0, 0.05);
+  padding: 34px 33px 32px;
+}
+.card_details h5 {
+  color: var(--sub-text-black);
+  font-family: "Inter-Bold";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 31.2px;
+  letter-spacing: -0.48px;
+  margin-bottom: 0;
+}
+.card_details h6 {
+  color: var(--sub-tittle-text);
+  font-family: "Inter-SemiBold";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28.8px;
+  letter-spacing: -0.36px;
+  margin-bottom: 9px;
+}
+.card_details span {
+  color: var(--location);
+  font-family: "Inter-Medium";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 1.68px;
+  text-transform: uppercase;
+}
+.card_details span:nth-child(2) {
+  margin: 0 8px 0 10px;
+  display: block;
+}
+.card-body-wrapper button {
+  padding: 14px 22px;
+  border-radius: 8px;
+  border: 2px solid var(--heading-color);
+  background-color: var(--white-color);
+  color: var(--heading-color);
+  transition: all 0.6s ease;
+  font-family: "Inter-SemiBold";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.card-body-wrapper button span svg {
+  padding-left: 4px;
+}
+.card-body-wrapper button span svg path {
+  stroke: var(--heading-color);
+  width: auto;
+}
+.card-body-wrapper button:hover {
+  border: 2px solid var(--careers-heading-color);
+  color: var(--careers-heading-color);
+}
+.card-body-wrapper button:hover span svg path {
+  stroke: var(--careers-heading-color);
+}
+/* about us css starts */
+.aboutus_wrapper {
+  padding: 134px 0;
+}
+.aboutus_wrapper img {
+  max-width: 100%;
+}
+.aboutus_wrapper .col {
+  padding: 0 25.5px;
+}
+.aboutus_wrapper .row {
+  margin: 0 25.5px;
+}
+.aboutus_details h5 {
+  color: var(--aboutus);
+  font-family: "Inter-Regular";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 15px;
+}
+.aboutus_details p {
+  color: var(--aboutus-rgba);
+  font-family: "Inter-Medium";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
