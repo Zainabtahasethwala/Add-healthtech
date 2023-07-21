@@ -22,6 +22,7 @@
     --aboutus:#13161D;
     --aboutus-rgba:rgba(19, 22, 29, 0.75); 
     --red-color:#EA4436;
+    --box-shadow: rgba(60, 72, 88, 0.15);
   }
   html {
     scroll-behavior: smooth;

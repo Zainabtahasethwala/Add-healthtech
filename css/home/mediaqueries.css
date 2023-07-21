@@ -442,13 +442,11 @@
   .industries_card_wrapper h5.card-title {
     margin: 8px 0;
   }
-  .tab_wrapper .nav-link,
-  .nav-pills .nav-link.active,
-  .nav-pills .show > .nav-link {
+  .tab_wrapper .tab_label {
     font-size: 15px;
     line-height: 21px;
   }
-  .tab_wrapper .nav-link {
+  .tab_wrapper .tab_label {
     padding: 4px 12px 4px 12px;
   }
   .industries_card_wrapper,
@@ -549,7 +547,7 @@
     margin-bottom: 30px;
   }
 }
-@media (max-width: 576px) {
+@media (max-width: 577px) {
   .pt-sm-25 {
     padding-top: 25px;
   }
@@ -562,6 +560,10 @@
   }
   .pt-213 {
     padding-top: 120px;
+  }
+  .tab_wrapper .tab_label{
+    width: 32%;
+    margin-bottom: 15px;
   }
   .tab_box {
     width: 46%;
@@ -617,22 +619,16 @@
     width: 16px;
     height: 16px;
   }
-  .tab_wrapper li.nav-item{
+  .tab_wrapper .tab_wrapper .tab_label{
     width: 25%;
   }
 }
-@media (max-width:515px) {
-  .tab_wrapper li.nav-item{
-    /* width: 50%; */
-  }
-}
+
 @media (max-width:540px) {
-  .tab_wrapper li.nav-item{
-    width: 47%;
+  .tab_wrapper .tab_label{
+    width: 41%;
   }
-  .tab_wrapper .nav-link, 
-  .nav-pills .nav-link.active, 
-  .nav-pills .show > .nav-link{
+  .tab_head {
     margin: 0;
     width: 100%;
     margin-bottom: 15px;
@@ -662,6 +658,9 @@
 @media (max-width:419px) {
   .tab_box {
     width: 44%;
+}
+.tab_wrapper .tab_label{
+  width: 38%;
 }
 }
 @media (max-width: 414px) {
