@@ -23,3 +23,7 @@
     --aboutus-rgba:rgba(19, 22, 29, 0.75); 
     --red-color:#EA4436;
   }
+  html {
+    scroll-behavior: smooth;
+  }
+  

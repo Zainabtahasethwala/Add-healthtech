@@ -24,4 +24,7 @@ $(document).ready(function(){
         $(this).toggleClass('active');
       }
     });
+    $('.tab_wrapper ').slimScroll({
+      height: '500px'
+    });
 });
